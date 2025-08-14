@@ -6,7 +6,6 @@ import { ConnectButton } from '@rainbow-me/rainbowkit';
 import RandomnessDemo from '../components/RandomnessDemo';
 import ContractInfo from '../components/ContractInfo';
 import Header from '../components/Header';
-import GenAnimeChar from '../../../genAnimeChar';
 import { useRouter } from 'next/navigation';
 
 export default function Home() {
@@ -87,8 +86,6 @@ export default function Home() {
             <div className="bg-white rounded-lg shadow-lg p-6">
               {activeTab === 'demo' ? (
                 <RandomnessDemo />
-              ) : activeTab === 'anime' ? (
-                <GenAnimeChar />
               ) : (
                 <ContractInfo />
               )}

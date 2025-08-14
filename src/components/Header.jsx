@@ -11,7 +11,7 @@ export default function Header() {
             <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">🎲</span>
             </div>
-            <h1 className="text-2xl font-bold text-gray-900">VR-Forge</h1>
+            <h1 className="text-2xl font-bold text-gray-900">VRForge</h1>
           </div>
           
           <ConnectButton />
