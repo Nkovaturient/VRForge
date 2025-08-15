@@ -8,16 +8,20 @@ A modern, user-friendly interface for showcasing the MockRandomnessReceiver smar
 
 <img width="1315" height="569" alt="Screenshot (648)" src="https://github.com/user-attachments/assets/b61cd42a-40df-4df7-84cd-72314da238d8" />
 <br/>
+
+
 - **Live Demo**: Interactive interface to test all contract functionalities
 - **Contract Information**: Comprehensive overview of contract features and security
 - **Wallet Integration**: Seamless wallet connection with RainbowKit
 - **Real-time Updates**: Live contract state monitoring
 - **Responsive Design**: Mobile-friendly interface built with Tailwind CSS
+---
 
 ## What It Demonstrates
 
 <img width="1319" height="606" alt="Screenshot (646)" src="https://github.com/user-attachments/assets/2b6f00c3-418f-4a55-911d-70f54f3c98be" />
 
+<br />
 
 The interface showcases all the key functionalities of the MockRandomnessReceiver contract:
 
@@ -25,6 +29,13 @@ The interface showcases all the key functionalities of the MockRandomnessReceive
 2. **Subscription Management**: Create and manage subscriptions for cost-effective randomness
 3. **Real-time State Monitoring**: View contract state including randomness, request IDs, and subscriptions
 4. **Transaction Handling**: Complete workflow from request to fulfillment
+
+---
+
+### Deployed Smart Contract Address: 0x96EE446A832b7AdcF598C4B2340131f622677c25
+- [BaseSepolia Testnet](https://sepolia.basescan.org/address/0x96EE446A832b7AdcF598C4B2340131f622677c25)
+ 
+---
 
 ## Prerequisites
 
@@ -81,7 +92,9 @@ export const config = getDefaultConfig({
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the interface.
+- Open [http://localhost:3000](http://localhost:3000) to view the interface.
+
+---
 
 ## Usage Guide
 
