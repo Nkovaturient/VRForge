@@ -202,7 +202,6 @@ Enable console logging to debug issues:
 
 - **Documentation**: [randomness-solidity docs](https://docs.randa.mu/)
 - **GitHub**: [randomness-solidity repository](https://github.com/randa-mu/randomness-solidity)
-- **Issues**: Report bugs or request features in this repository
 
 
-Built randomly ❤️ using randomness-solidity and modern web technologies.🙂😄
+Built randomly ❤️ using randomness-solidity.🙂😄
