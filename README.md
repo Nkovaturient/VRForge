@@ -46,6 +46,7 @@ Before running this interface, you need:
 2. **Wallet with Test ETH**: Sufficient ETH for gas fees and randomness requests.
 - [Filecoin Calibration Faucets](https://faucet.calibnet.chainsafe-fil.io/funds.html)
 - [Base Sepolia Faucet](https://www.alchemy.com/faucets/base-sepolia)
+- [Base Network Faucets](https://docs.base.org/base-chain/tools/network-faucets)
 
 3. **Environment Variables**: Set up your [Alchemy API key](https://dashboard.alchemy.com/) and [WalletConnect project ID](https://docs.reown.com/cloud/relay)
 
