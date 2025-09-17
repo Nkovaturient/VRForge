@@ -6,15 +6,16 @@ A modern, user-friendly interface for showcasing the MockRandomnessReceiver smar
 
 ## Features
 
-<img width="1315" height="569" alt="Screenshot (648)" src="https://github.com/user-attachments/assets/b61cd42a-40df-4df7-84cd-72314da238d8" />
-<br/>
+<img width="1318" height="540" alt="Screenshot (663)" src="https://github.com/user-attachments/assets/a1bd284c-0a84-4cc7-91c1-e6ff3a47894d" />
 
+
+<br/>
 
 - **Live Demo**: Interactive interface to test all contract functionalities
 - **Contract Information**: Comprehensive overview of contract features and security
-- **Wallet Integration**: Seamless wallet connection with RainbowKit
-- **Real-time Updates**: Live contract state monitoring
-- **Responsive Design**: Mobile-friendly interface built with Tailwind CSS
+- **Random Anime Character Generation**: Demo showcasing `random anime char generation` via drand-randomness 
+- **Randomly and Fairly Split Bills**: Another Demo to split bills on a dinner table in a `random & fair` way
+
 ---
 
 ## What It Demonstrates
@@ -29,6 +30,10 @@ The interface showcases all the key functionalities of the MockRandomnessReceive
 2. **Subscription Management**: Create and manage subscriptions for cost-effective randomness
 3. **Real-time State Monitoring**: View contract state including randomness, request IDs, and subscriptions
 4. **Transaction Handling**: Complete workflow from request to fulfillment
+
+
+<img width="1306" height="604" alt="Screenshot (662)" src="https://github.com/user-attachments/assets/503e6f09-0b25-4c33-9f9e-9261c5f5de40" />
+
 
 ---
 
