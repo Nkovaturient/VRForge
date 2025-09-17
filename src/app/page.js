@@ -79,6 +79,16 @@ export default function Home() {
                 >
                   Vibe your Anime Char
                 </button>
+                <button
+                  onClick={() => router.push('/splitbills')}
+                  className={`px-6 py-3 rounded-md font-medium transition-colors ${
+                    activeTab === 'split'
+                      ? 'bg-blue-600 text-white'
+                      : 'text-gray-600 hover:text-gray-900'
+                  }`}
+                >
+                  Let's Split the bill!
+                </button>
               </div>
             </div>
 
