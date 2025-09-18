@@ -1,18 +1,17 @@
 'use client';
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect} from "react";
 import { useAccount } from 'wagmi';
 import { Randomness } from 'randomness-js';
 import { ethers } from 'ethers';
 import { useReadContract, useWriteContract, useWaitForTransactionReceipt } from 'wagmi';
 import { CONTRACT_ABI, CONTRACT_ADDRESS } from '../../config';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Sparkles, RefreshCw, User, Zap, Shield, Heart, Star, HomeIcon, Plus, X, DollarSign, Users, RotateCcw } from 'lucide-react';
-import { lensTestnet } from "viem/chains";
+import { Sparkles, RefreshCw, Zap, HomeIcon, Plus, X, DollarSign, Users, RotateCcw } from 'lucide-react';
 import Link from "next/link";
 
-export default function splitBillsFairly() {
+export default function SplitBills() {
 
-    const { isConnected, address } = useAccount();
+    const { isConnected } = useAccount();
 
     // Contract interaction states
     const { data: readData, refetch: refetchReadData } = useReadContract({
@@ -29,7 +28,6 @@ export default function splitBillsFairly() {
     const [error, setError] = useState(null);
     const [showSplitBill, setShowSplitBill] = useState(false);
     const [animationPhase, setAnimationPhase] = useState('idle'); // idle, spinning, revealing, complete
-    const [numParticipants, setNumParticipants] = useState(2);
     const [participants, setParticipants] = useState(['Person 1', 'Person 2']);
     const [totalAmount, setTotalAmount] = useState('');
     const [randomnessValue, setRandomnessValue] = useState(null);
@@ -415,7 +413,7 @@ export default function splitBillsFairly() {
                                     exit={{ opacity: 0, y: -20 }}
                                     className="space-y-4"
                                 >
-                                    <h3 className="text-xl font-bold text-white mb-4">No 'One' to Blame! Just Split & Pay!</h3>
+                                    <h3 className="text-xl font-bold text-white mb-4">No &apos;One&apos; to Blame! Just Split & Pay!</h3>
                                     {splitResults.map((result, index) => (
                                         <motion.div
                                             key={index}

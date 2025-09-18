@@ -9,6 +9,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Sparkles, RefreshCw, User, Zap, Shield, Heart, Star, HomeIcon } from 'lucide-react';
 import { lensTestnet } from "viem/chains";
 import Link from "next/link";
+import Image from "next/image";
 
 
 export default function Ranime() {
@@ -190,7 +191,7 @@ export default function Ranime() {
 
             fetchCharacter();
         }
-    }, [isTransactionSuccess, readData]);
+    }, [isTransactionSuccess, readData, fetchAnimeCharacter]);
 
     // Monitor transaction hash for debugging
     useEffect(() => {
@@ -335,7 +336,7 @@ export default function Ranime() {
                                     whileHover={{ scale: 1.05, rotateY: 5 }}
                                     className="w-64 h-80 rounded-2xl overflow-hidden shadow-2xl border-4 border-purple-400/50"
                                 >
-                                    <img
+                                    <Image
                                         src={characterStats.image}
                                         alt={characterStats.name}
                                         className="w-full h-full object-cover"

@@ -87,7 +87,7 @@ export default function Home() {
                       : 'text-gray-600 hover:text-gray-900'
                   }`}
                 >
-                  Let's Split the bill!
+                  Let&apos;s Split the bill!
                 </button>
               </div>
             </div>
